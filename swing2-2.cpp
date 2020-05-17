@@ -7,23 +7,23 @@ int main()
 
 	do
 	{
-		cout << endl<<"--------º° Âï±â ½Ã½ºÅÛ--------" << endl;
-		cout<<"1. Á÷°¢»ï°¢Çü" << endl;
-		cout<<"2. Á¤»ï°¢Çü" << endl;
-		cout<<"3. ³ªºñ" << endl;
-		cout<<"4. ³ª°¡±â"<< endl;
+		cout << endl<<"--------ë³„ ì°ê¸° ì‹œìŠ¤í…œ--------" << endl;
+		cout<<"1. ì§ê°ì‚¼ê°í˜•" << endl;
+		cout<<"2. ì •ì‚¼ê°í˜•" << endl;
+		cout<<"3. ë‚˜ë¹„" << endl;
+		cout<<"4. ë‚˜ê°€ê¸°"<< endl;
 
-		cout<<"¸¸µé°í ½ÍÀº ¸ð¾çÀ» ¼±ÅÃÇØÁÖ¼¼¿ä.";
-		cin >> num; //¸¸µé°í ½ÍÀº ¸ð¾ç¿¡ ÇØ´çÇÏ´Â ¼ýÀÚ¸¦ Å°º¸µå·Î ÀÔ·Â ¹Þ´Â´Ù.
+		cout<<"ë§Œë“¤ê³  ì‹¶ì€ ëª¨ì–‘ì„ ì„ íƒí•´ì£¼ì„¸ìš”.";
+		cin >> num; //ë§Œë“¤ê³  ì‹¶ì€ ëª¨ì–‘ì— í•´ë‹¹í•˜ëŠ” ìˆ«ìžë¥¼ í‚¤ë³´ë“œë¡œ ìž…ë ¥ ë°›ëŠ”ë‹¤.
 
-		switch (num) // switch~case¹®À» »ç¿ëÇÏ¿© ¿©·¯ °³ Áß ÇÏ³ª¸¦ ¼±ÅÃÇÒ ¼ö ÀÖµµ·Ï ÇÑ´Ù.
+		switch (num) // switch~caseë¬¸ì„ ì‚¬ìš©í•˜ì—¬ ì—¬ëŸ¬ ê°œ ì¤‘ í•˜ë‚˜ë¥¼ ì„ íƒí•  ìˆ˜ ìžˆë„ë¡ í•œë‹¤.
 		{
 		case 1:
-			cout << endl<<"Á÷°¢»ï°¢ÇüÀ» ¼±ÅÃÇÏ¼Ì½À´Ï´Ù." << endl;
-			cout<< "ÇàÀÇ °³¼ö¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä.";
-			cin>>k; //k´Â ÇàÀÇ °³¼ö¸¦ ÀÔ·ÂÇÏ´Â º¯¼ö
+			cout << endl<<"ì§ê°ì‚¼ê°í˜•ì„ ì„ íƒí•˜ì…¨ìŠµë‹ˆë‹¤." << endl;
+			cout<< "í–‰ì˜ ê°œìˆ˜ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”.";
+			cin>>k; //këŠ” í–‰ì˜ ê°œìˆ˜ë¥¼ ìž…ë ¥í•˜ëŠ” ë³€ìˆ˜
 
-			for (i = 0; i < k; i++) //¿À¸¥ÂÊ ¾Æ·¡°¡ Á÷°¢ÀÎ Á÷°¢»ï°¢Çü
+			for (i = 0; i < k; i++) //ì˜¤ë¥¸ìª½ ì•„ëž˜ê°€ ì§ê°ì¸ ì§ê°ì‚¼ê°í˜•
 			{
 				for (j = 0; j < k - 1 - i; j++)
 					cout<<" ";
@@ -34,7 +34,7 @@ int main()
 
 			 cout << endl;
 			
-			 for (i = 0; i < k; i++) //¿ÞÂÊ À§°¡ Á÷°¢ÀÎ Á÷°¢»ï°¢Çü
+			 for (i = 0; i < k; i++) //ì™¼ìª½ ìœ„ê°€ ì§ê°ì¸ ì§ê°ì‚¼ê°í˜•
 			{
 				for (j = 0; j < k - i; j++)
 					cout<<"*";
@@ -44,7 +44,7 @@ int main()
 
 			 cout << endl;
 
-			for (i = k - 1; i >= 0; i--) //¿À¸¥ÂÊ À§°¡ Á÷°¢ÀÎ Á÷°¢»ï°¢Çü
+			for (i = k - 1; i >= 0; i--) //ì˜¤ë¥¸ìª½ ìœ„ê°€ ì§ê°ì¸ ì§ê°ì‚¼ê°í˜•
 			{
 				for (j = 0; j < k - 1 - i; j++)
 					cout<<" ";
@@ -52,11 +52,11 @@ int main()
 					cout<<"*";
 				cout << endl;
 			}
-			break; //switch~case¹®¿¡¼­ break¸¦ »ç¿ëÇÏ¿©, ³ª¸ÓÁö case±îÁö Ãâ·ÂµÇÁö ¾Êµµ·Ï ÇÑ´Ù.
+			break; //switch~caseë¬¸ì—ì„œ breakë¥¼ ì‚¬ìš©í•˜ì—¬, ë‚˜ë¨¸ì§€ caseê¹Œì§€ ì¶œë ¥ë˜ì§€ ì•Šë„ë¡ í•œë‹¤.
 
 		case 2:
-			cout<<endl<<"Á¤»ï°¢ÇüÀ» ¼±ÅÃÇÏ¼Ì½À´Ï´Ù."<< endl;
-			cout<<"ÇàÀÇ °³¼ö¸¦ ¼±ÅÃÇØÁÖ¼¼¿ä.";
+			cout<<endl<<"ì •ì‚¼ê°í˜•ì„ ì„ íƒí•˜ì…¨ìŠµë‹ˆë‹¤."<< endl;
+			cout<<"í–‰ì˜ ê°œìˆ˜ë¥¼ ì„ íƒí•´ì£¼ì„¸ìš”.";
 			cin>>k;
 
 			for (i = 0; i < k; i++)
@@ -70,10 +70,10 @@ int main()
 			break;
 
 		case 3:
-			cout<<endl<<"³ªºñ¸¦ ¼±ÅÃÇÏ¼Ì½À´Ï´Ù." << endl;
-			do // do~while¹®À» »ç¿ëÇÏ¿© ÀÔ·ÂµÈ ¼ö°¡ È¦¼ö°¡ ¾Æ´Ñ °æ¿ì¿¡ "È¦¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä:"¶ó´Â ¹®±¸°¡ Ãâ·ÂµÇµµ·Ï ÇÑ´Ù.
+			cout<<endl<<"ë‚˜ë¹„ë¥¼ ì„ íƒí•˜ì…¨ìŠµë‹ˆë‹¤." << endl;
+			do // do~whileë¬¸ì„ ì‚¬ìš©í•˜ì—¬ ìž…ë ¥ëœ ìˆ˜ê°€ í™€ìˆ˜ê°€ ì•„ë‹Œ ê²½ìš°ì— "í™€ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”:"ë¼ëŠ” ë¬¸êµ¬ê°€ ì¶œë ¥ë˜ë„ë¡ í•œë‹¤.
 			{
-				cout<<"È¦¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä:";
+				cout<<"í™€ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”:";
 				cin>>k;
 			} while (k % 2 == 0 || k == 1);
 
@@ -106,10 +106,10 @@ int main()
 			break;
 
 		case 4:
-			cout << endl<<"³ª°¡±â¸¦ ¼±ÅÃÇÏ¼Ì½À´Ï´Ù."<< endl; //4¸¦ ÀÔ·ÂÇØ¾ß Å»ÃâÇÒ ¼ö ÀÖÀ½
-			cout<< "°¨»çÇÕ´Ï´Ù.";
+			cout << endl<<"ë‚˜ê°€ê¸°ë¥¼ ì„ íƒí•˜ì…¨ìŠµë‹ˆë‹¤."<< endl; //4ë¥¼ ìž…ë ¥í•´ì•¼ íƒˆì¶œí•  ìˆ˜ ìžˆë‹¤.
+			cout<< "ê°ì‚¬í•©ë‹ˆë‹¤.";
 
 
 		}
-	} while (num != 4); //ÀÔ·ÂÇÏ´Â ¼ýÀÚ°¡ 4°¡ ¾Æ´Ï¶ó¸é °è¼Ó ¹Ýº¹ÇÑ´Ù.
+	} while (num != 4); //ìž…ë ¥í•˜ëŠ” ìˆ«ìžê°€ 4ê°€ ì•„ë‹ˆë¼ë©´ ê³„ì† ë°˜ë³µí•œë‹¤.
 }
