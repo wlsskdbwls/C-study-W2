@@ -1,1 +1,1 @@
-# C-study-W2
+# C-study
